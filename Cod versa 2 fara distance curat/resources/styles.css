@@ -1,0 +1,110 @@
+.background {
+  viewport-fill: black;
+}
+
+#backgroundImage {
+
+  href: "348.png";
+  opacity: 1;
+  width: 348;
+  height: 250;
+}
+
+#hoursLabel {
+  font-size: 60;
+  font-family: Colfax-Light;
+  text-length: 32;
+  text-anchor: middle;
+
+/*   fill: #bcc9d7; */
+  fill: #faf908;
+}
+
+#minutesLabel {
+  font-size: 60;
+  font-family: Colfax-Light;
+  text-length: 32;
+  text-anchor: middle;
+
+  fill: #e0ccaa;
+}
+
+#batteryLabel {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: end;
+  fill: #c4ff0e;
+}
+
+#batteryIcon {
+  width: 20;
+  height: 20;
+  href: "stat_am_solid_48px.png";
+  fill: #c4ff0e;
+  
+}
+
+#heartRateLabel {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: end;
+  fill: #ff073a;
+}
+
+#heartIcon {
+  width: 20;
+  height: 20;
+  href: "stat_hr_solid_48px.png";
+  fill: #ff073a;
+}
+
+#stepsLabel {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: end;
+  fill: #66feff;
+}
+
+#stepsIcon {
+  width: 20;
+  height: 20;
+  href: "stat_steps_solid_48px.png";
+  fill: #66feff;
+}
+
+#caloriesLabel {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: end;
+  fill: #ff8300 ;
+}
+
+#caloriesIcon {
+  width: 20;
+  height: 20;
+  href: "stat_cals_solid_48px.png";
+  fill: #ff8300 ;
+  
+}
+
+#monthLabel{
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 10;
+  text-anchor: end;
+  fill: #faf908;
+  x: 5;
+}
+
+#dayLabel{
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 10;
+  text-anchor: start;
+  fill: #faf908;
+  x: 15;
+}

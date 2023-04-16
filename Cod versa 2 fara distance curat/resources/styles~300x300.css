@@ -1,0 +1,126 @@
+.background {
+  viewport-fill: black;
+}
+
+#backgroundImage {
+
+  href: "300.png";
+  opacity: 1;
+  width: 300;
+  height: 300;
+}
+
+#hoursLabel {
+  font-size: 57;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+
+/*   fill: #bcc9d7; */
+  fill: #df9827;
+}
+
+#minutesLabel {
+  font-size: 57;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+
+  fill: #eee5e2;
+}
+
+#batteryLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  fill: #eee5e2;
+}
+
+#batteryIcon {
+  width: 20;
+  height: 20;
+  href: "stat_am_solid_48px.png";
+  fill: #df9827;
+  
+}
+
+#distancetext {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  fill: #eee5e2;
+}
+
+#distanceIcon {
+  width: 20;
+  height: 20;
+  href: "distance.png";
+  fill: #df9827;
+  
+}
+
+#heartRateLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  fill: #eee5e2;
+}
+
+#heartIcon {
+  width: 20;
+  height: 20;
+  href: "stat_hr_solid_48px.png";
+  fill: #df9827;
+}
+
+#stepsLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  fill: #eee5e2;
+}
+
+#stepsIcon {
+  width: 20;
+  height: 20;
+  href: "stat_steps_solid_48px.png";
+  fill: #df9827;
+}
+
+#caloriesLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  fill: #eee5e2;
+}
+
+#caloriesIcon {
+  width: 20;
+  height: 20;
+  href: "stat_cals_solid_48px.png";
+  fill: #df9827;
+  
+}
+
+#monthLabel{
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 10;
+  text-anchor: end;
+  fill: #eee5e2;
+  x: 5;
+}
+
+#dayLabel{
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 10;
+  text-anchor: start;
+  fill: #df9827;
+  x: 15;
+}

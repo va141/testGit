@@ -1,0 +1,38 @@
+<svg class="background">
+<!--   <text id="hoursLabel" />
+  <text id="minutesLabel"/> -->
+  <image id="backgroundImage" width="348" height="250"/>
+  
+  <section x="25%" y="25%" width="80" height="20">
+    <text id="hoursLabel"/>
+    <text id="minutesLabel"/>
+  </section>
+  
+  <section x="85%" y="51%" width="80" height="20">
+    <image id="heartIcon"/>
+    <text id="heartRateLabel"/>
+  </section>
+  
+  <section x="50%" y="78%" width="80" height="20">
+    <image id="caloriesIcon"/>
+    <text id="caloriesLabel"/>
+  </section>
+  
+  <section x="10%" y="90%" width="80" height="20">
+    <image id="stepsIcon"/>
+    <text id="stepsLabel"/>
+  </section>
+  
+  <section x="85%" y="63%" width="80" height="20">
+    <image id="batteryIcon"/>
+    <text id="batteryLabel"/>
+  </section>
+  
+  <section x="60%" y="10%" width="80" height="20">
+    <text id="monthLabel"/>
+    <text id="dayLabel"/>
+  </section>
+  
+    <!-- USE KPAY UI CODE - DO NOT MODIFY BELOW THIS LINE - ADD ALL OWN UI CODE ABOVE THIS LINE -->
+<!--   <use href="#kpay" />  -->
+</svg>
